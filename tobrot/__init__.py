@@ -106,7 +106,7 @@ SUDO_USERS = [int(sudos) if (' ' not in getVar('SUDO_USERS', '')) else int(sudos
 AUTH_CHANNEL.extend((OWNER_ID, 1242011540))
 AUTH_CHANNEL += SUDO_USERS # Change Permissions Soon
 # Download Directory >>>>>>>>>>>
-DOWNLOAD_LOCATION = "./Downloads"
+DOWNLOAD_LOCATION = "downloads/"
 
 # Compulsory Variables >>>>>>>>
 for imp in ["TG_BOT_TOKEN1", "APP_ID1", "API_HASH1", "OWNER_ID", "AUTH_CHANNEL"]:
